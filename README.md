@@ -1,66 +1,82 @@
-# Welsonjic Pakiding — Personal CV Website
+# Personal CV Website
 
-A responsive personal CV and project portfolio for **Welsonjic Pakiding**, a fourth-year BS Information Technology student at Davao del Norte State College.
+A personal portfolio website that presents my background, technical skills, education, and selected projects as a BSIT student at Davao del Norte State College.
 
-## Live Website
+## Overview
 
-After deployment, add your public Vercel URL here: `https://your-project-name.vercel.app`
+This website serves as my online CV and portfolio. It provides an overview of my academic background, interests, and project experience, including web development and an IoT-based capstone research project.
+
+## Features
+
+- Personal introduction and profile
+- About section
+- Technical skills and areas of interest
+- Selected academic and personal projects
+- Educational background
+- Contact information
+- Responsive layout for different screen sizes
 
 ## Technologies Used
 
-- HTML5 for content and page structure
-- CSS3 for responsive layout, visual design, transitions, and animation
-- Vanilla JavaScript for mobile navigation, scroll reveal effects, print support, and dynamic footer year
-- Google Fonts (Manrope and DM Mono)
-- Git and GitHub for version control
-- Vercel for hosting and deployment
+- **HTML5** — Website structure
+- **CSS3** — Layout, styling, and responsive design
+- **JavaScript** — Interactive elements
 
-## Website Sections
+## Projects Featured
 
-- Personal introduction and career focus
-- About and basic information
-- Technical skills
-- Selected projects: E-Link, BreathDX, and this CV website
-- Education and project-based experience
-- Contact information and GitHub profile
+### E-Link
+A web platform concept designed to help gamers showcase their profiles and connect with esports teams looking for players.
 
-## Run Locally
+### BreathDX
+A capstone research prototype that explores the use of breath-sensor data to estimate glucose levels. The project uses an ESP32-based system and a software model for data estimation. It is intended for research and prototyping, not medical diagnosis.
 
-This is a static website and does not require a package manager or build step.
+### Personal CV Website
+A responsive portfolio website built to present my background, skills, and projects in one place.
 
-1. Download or clone this repository.
-2. Open `index.html` in your browser.
-3. For a local development server, use VS Code with the Live Server extension.
+## Project Structure
 
-## Personalize Before Submission
+```text
+personal-cv/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+├── .gitignore
+└── assets/
+    ├── Profile.png
+    └── Elink.png
+```
 
-- Replace `assets/profile-placeholder.svg` with your own photo, then update the image path and alt text in `index.html`.
-- Confirm that all skills listed reflect your actual ability.
-- Add project-specific GitHub links when those repositories are public.
-- Add your LinkedIn profile if you create one.
-- After deployment, replace the placeholder Vercel URL in this README.
+## Running the Website Locally
 
-## Deployment on Vercel
+1. Clone the repository:
 
-1. Push this project to a GitHub repository named `personal-cv`.
-2. Sign in to Vercel using GitHub.
-3. Choose **Add New → Project**, then import `personal-cv`.
-4. Use the project root as the Root Directory. No build command or output directory is required for this plain static site.
-5. Click **Deploy** and open the generated `.vercel.app` URL.
-6. Test navigation, email links, mobile layout, and the print/save CV button.
+   ```bash
+   git clone https://github.com/welsonjic-cmd/Personal-cv.git
+   ```
 
-Vercel's Git integration can automatically deploy new commits pushed to the connected repository.
+2. Open the project folder:
 
-## Student Information
+   ```bash
+   cd Personal-cv
+   ```
 
-- **Name:** Welsonjic Pakiding
-- **Program:** Bachelor of Science in Information Technology
-- **School:** Davao del Norte State College
-- **Year Level / Section:** Fourth Year, Section 4G
-- **Location:** Panabo City, Philippines
-- **Email:** welsonjic@gmail.com
-- **GitHub:** https://github.com/pakidingwelsonjic-arch
+3. Open `index.html` in your web browser.
 
-## Project Notes
+No additional dependencies are required to view the website locally.
 
-BreathDX is described as a research prototype exploring breath-sensor data and glucose-level estimation. It is not presented as a medically validated or diagnostic device.
+## Live Website
+
+The website is deployed using Vercel.
+
+**Live URL:** [Vercel deployment URL ](https://personal-cv-green.vercel.app/).
+
+## Repository
+
+[GitHub Repository](https://github.com/welsonjic-cmd/Personal-cv)
+
+## Author
+
+**Welsonjic Pakiding**  
+Bachelor of Science in Information Technology  
+Davao del Norte State College
