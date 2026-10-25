@@ -69,7 +69,7 @@ No additional dependencies are required to view the website locally.
 
 The website is deployed using Vercel.
 
-**Live URL:** [Vercel deployment URL ](https://personal-cv-green.vercel.app/).
+**Live URL:** [Vercel URL ](https://personal-cv-green.vercel.app/).
 
 ## Repository
 
